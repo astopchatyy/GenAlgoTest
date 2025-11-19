@@ -1,0 +1,2 @@
+from .genetic_trainer import GeneticTrainer
+from .basic_trainer import BasePopulationTrainer
