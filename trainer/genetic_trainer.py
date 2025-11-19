@@ -8,7 +8,7 @@ from typing import Dict, List, Type, Any
 from tqdm import tqdm
 import math
 from metric import Metric
-from trainer import BasePopulationTrainer
+from .basic_trainer import BasePopulationTrainer
 
 class GeneticTrainer(BasePopulationTrainer):
     def __init__(self,
